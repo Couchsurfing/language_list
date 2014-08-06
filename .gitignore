@@ -4,3 +4,4 @@ construct
 .bundle
 Gemfile.lock
 pkg/*
+.project

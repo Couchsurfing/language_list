@@ -1,7 +1,9 @@
 # Language List
+
 A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages.
 
 ## Examples
+
     # Get an array of LanguageList::LanguageInfo classes
     all_languages = LanguageList::ALL_LANGUAGES
     common_languages = LanguageList::COMMON_LANGUAGES
@@ -26,9 +28,11 @@ __Important:__ the list of languages is stored as a Marshal dump, which must be 
     rake rebuild_dump
 
 ## Thanks
+
 Thanks goes to Steve Hardie for his work on creating a list of common languages (http://stevehardie.com/2009/10/list-of-common-languages/).
 
 ## License
+
 I don't actually know the license for this project. The project contains countries from the ISO language list although they were not obtained from the ISO website. The country list has been adapted and placed in data/languages.yml, so that it can be replaced if required.
 
 All of the code (everything except data/languages.yml) in this project is released under an MIT license.

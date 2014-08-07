@@ -19,6 +19,12 @@ A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retriev
 
     rake
 
+## Rebuilding the Marshal dump
+
+__Important:__ the list of languages is stored as a Marshal dump, which must be rebuilt after every change.
+
+    rake rebuild_dump
+
 ## Thanks
 Thanks goes to Steve Hardie for his work on creating a list of common languages (http://stevehardie.com/2009/10/list-of-common-languages/).
 

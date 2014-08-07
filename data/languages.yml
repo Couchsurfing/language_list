@@ -4983,6 +4983,14 @@
   :common: false
   :type: :living
   :scope: :individual
+- :name: Berber
+  :iso_639_1: 
+  :iso_639_3: ber
+  :iso_639_2b: 
+  :iso_639_2t: 
+  :common: false
+  :type: :living
+  :scope: :macro_language
 - :name: Besme
   :iso_639_1: 
   :iso_639_3: bes
@@ -5703,6 +5711,14 @@
   :common: false
   :type: :living
   :scope: :individual
+- :name: Bihari
+  :iso_639_1: bh
+  :iso_639_3: bih
+  :iso_639_2b: 
+  :iso_639_2t: 
+  :common: false
+  :type: :living
+  :scope: :macro_language
 - :name: Vaghat-Ya-Bijim-Legeri
   :iso_639_1: 
   :iso_639_3: bij
@@ -11087,6 +11103,14 @@
   :common: false
   :type: :living
   :scope: :individual
+- :name: Creole
+  :iso_639_1: 
+  :iso_639_3: crp
+  :iso_639_2b: 
+  :iso_639_2t: 
+  :common: false
+  :type: :living
+  :scope: :macro_language
 - :name: Iyo'wujwa Chorote
   :iso_639_1: 
   :iso_639_3: crq

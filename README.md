@@ -1,6 +1,6 @@
 # Language List
 
-A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages.
+A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages, i.e. languages with 50 million speakers or more.
 
 ## Examples
 
@@ -8,8 +8,7 @@ A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retriev
     all_languages = LanguageList::ALL_LANGUAGES
     common_languages = LanguageList::COMMON_LANGUAGES
     
-    # Finding a language based on its ISO-639-1 or ISO-639-3 code or
-    # name
+    # Finding a language based on its ISO-639-1 or ISO-639-3 code or name
     german  = LanguageList::LanguageInfo.find('German')
     english = LanguageList::LanguageInfo.find('en')
     english.name.inspect #=> "English"
@@ -21,7 +20,7 @@ A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retriev
 
     rake
 
-## Rebuilding the Marshal dump
+## Rebuilding the Marshal dump (Couchsurfing)
 
 __Important:__ the list of languages is stored as a Marshal dump, which must be rebuilt after every change.
 

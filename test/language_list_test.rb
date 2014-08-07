@@ -3,7 +3,8 @@ require 'language_list'
 
 class LanguageListTest < Minitest::Test
   def test_all_languages
-    assert_equal 7707, LanguageList::ALL_LANGUAGES.length
+    # assert_equal 7707, LanguageList::ALL_LANGUAGES.length
+    assert_equal 7710, LanguageList::ALL_LANGUAGES.length # added three
   end
 
   def test_common_languages
@@ -16,7 +17,8 @@ class LanguageListTest < Minitest::Test
   end
 
   def test_iso_iso_639_1_languages
-    assert_equal 184, LanguageList::ISO_639_1.length
+    # assert_equal 184, LanguageList::ISO_639_1.length
+    assert_equal 185, LanguageList::ISO_639_1.length  # added on item with a part 1 code
   end
 
   def test_find_by_iso_639_1

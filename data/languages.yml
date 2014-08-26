@@ -46551,6 +46551,14 @@
   :common: false
   :type: :living
   :scope: :individual
+- :name: Slavic Languages
+  :iso_639_1: 
+  :iso_639_3: sla
+  :iso_639_2b: 
+  :iso_639_2t: 
+  :common: true
+  :type: :living
+  :scope: :macro_language
 - :name: Sáliba
   :iso_639_1: 
   :iso_639_3: slc

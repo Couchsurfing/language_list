@@ -20,11 +20,16 @@ A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retriev
 
     rake
 
-## Rebuilding the Marshal dump (Couchsurfing)
+## Updating languages.yml (Couchsurfing)
 
 __Important:__ the list of languages is stored as a Marshal dump, which must be rebuilt after every change.
 
     rake rebuild_dump
+
+Additionally, increment the PATCH version here in lib/language_list/version.rb and in the Gemfile of the project:
+
+    gem 'language_list', '1.0.1', :github => 'Couchsurfing/language_list', :branch => 'customized'
+                              ^
 
 ## Thanks
 
